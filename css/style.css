@@ -103,3 +103,30 @@ body {
     color:#4A90E2;
     text-decoration: none;
 }
+
+.courses {
+    padding: 32px 72px;
+    background-color: #d8d8d8;
+    text-align: center;
+}
+
+.courses__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.card__course {
+    max-width: 32%;
+    text-align: left;
+    background-color: #fff;
+    padding-bottom: 24px;
+  }
+
+.card__course img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
