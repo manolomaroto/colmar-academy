@@ -104,6 +104,10 @@ body {
     text-decoration: none;
 }
 
+.image__mobile {
+    display: none;
+}
+
 .courses {
     padding: 32px 72px;
     background-color: #d8d8d8;
@@ -114,6 +118,10 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
+}
+
+.courses__mobile {
+    display: none;
 }
 
 .card__course {
@@ -165,6 +173,101 @@ footer {
 
 .footer__links a{
     text-decoration: none;
+}
+
+.navbar__mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 650px) {
+    .navbar {
+        display: none;
+    }
+    .navbar__mobile {
+        display: block;
+        margin-right: 8px;
+        padding-top: 16px;
+    }
+
+    .navbar__icons {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar__icons li {
+        list-style-type: none;
+    }
+
+    .banner {
+        display: block;
+    }
+
+    .banner img {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .banner__text {
+        width: 90%;
+        margin-left: 16px;
+        padding-bottom: 32px;
+    }
+
+    .information__left {
+        display: none;
+    }
+
+    .information__right {
+        width: 100%;
+    }
+
+    div .card {
+        display: block;
+        max-width: 100%;
+    }
+
+    .card img {
+        display: none;
+    }
+
+    .card .image__mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .courses {
+        display: none;
+    }
+
+    .courses__mobile {
+        display: block;
+        text-align: center;
+    }
+
+    .courses__titles h3{
+        background-color: #d8d8d8;
+        padding: 16px 24px;
+        text-align: left;
+        margin: 8px 0;
+    }
+
+    .thesis__cards {
+        display: none;
+    }
+
+    .thesis__content video {
+        max-width: 100%;
+    }
+
+    .thesis__footer {
+        display: none;
+    }
+
+    .footer__links {
+        display: none;
+    }
 }
 
 
